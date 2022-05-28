@@ -32,8 +32,13 @@ const shuffleLayerConfigurations = true;
 const debugLogs = false;
 
 const format = {
+<<<<<<< HEAD
   width: 3000,
   height: 3000,
+=======
+  width: 2000,
+  height: 2000,
+>>>>>>> 050458c36aabe1c7a405d7aad9bf378e8249cc3b
   smoothing: false,
 };
 
@@ -49,25 +54,45 @@ const LIMIT = 2; // Your API key rate limit
 const CHAIN = 'rinkeby'; // only rinkeby or polygon
 
 // REQUIRED CONTRACT DETAILS THAT CANNOT BE UPDATED LATER!
+<<<<<<< HEAD
 const CONTRACT_NAME = 'Ukrainian Dragons 1st Edition';
 const CONTRACT_SYMBOL = 'UKRD1';
+=======
+const CONTRACT_NAME = 'Test Ukrainian Dragons';
+const CONTRACT_SYMBOL = 'UD';
+>>>>>>> 050458c36aabe1c7a405d7aad9bf378e8249cc3b
 const METADATA_UPDATABLE = true; // set to false if you don't want to allow metadata updates after minting
 const OWNER_ADDRESS = '0x028e9449edE7f7116001B5C6D70C3766961CEbFA';
 const TREASURY_ADDRESS = '0x028e9449edE7f7116001B5C6D70C3766961CEbFA';
 const MAX_SUPPLY = 100; // The maximum number of NFTs that can be minted. CANNOT BE UPDATED!
+<<<<<<< HEAD
 const MINT_PRICE = 0.01; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
 const TOKENS_PER_MINT = 100; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
 
 // REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
 const PUBLIC_MINT_START_DATE = "2022-05-28T14:30:00+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+=======
+const MINT_PRICE = 0.02; // Minting price per NFT. Rinkeby = ETH, Polygon = MATIC. CANNOT BE UPDATED!
+const TOKENS_PER_MINT = 100; // maximum number of NFTs a user can mint in a single transaction. CANNOT BE UPDATED!
+
+// REQUIRED CONTRACT DETAILS THAT CAN BE UPDATED LATER.
+const PUBLIC_MINT_START_DATE = "2022-05-10T11:30:48+00:00"; // This is required. Eg: 2022-02-08T11:30:48+00:00
+>>>>>>> 050458c36aabe1c7a405d7aad9bf378e8249cc3b
 
 // OPTIONAL CONTRACT DETAILS THAT CAN BE UPDATED LATER.
-const PRESALE_MINT_START_DATE = null; // Optional. Eg: 2022-02-08T11:30:48+00:00
+const PRESALE_MINT_START_DATE = "2022-05-08T11:30:48+00:00"; // Optional. Eg: 2022-02-08T11:30:48+00:00
 const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the royalty address. 100 bps = 1%
+<<<<<<< HEAD
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null ; // only update if you want to manually set the prereveal token uri
 const ROYALTY_ADDRESS = "0x028e9449edE7f7116001B5C6D70C3766961CEbFA"; // Address that will receive the royalty
 const PRESALE_WHITELISTED_ADDRESSES = []; // only update if you want to manually set the whitelisted addresses
+=======
+const ROYALTY_ADDRESS = "0x028e9449edE7f7116001B5C6D70C3766961CEbFA"; // Address that will receive the royalty
+const BASE_URI = null; // only update if you want to manually set the base uri
+const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
+const PRESALE_WHITELISTED_ADDRESSES = ["0x028e9449edE7f7116001B5C6D70C3766961CEbFA"]; // only update if you want to manually set the whitelisted addresses
+>>>>>>> 050458c36aabe1c7a405d7aad9bf378e8249cc3b
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "YOUR CONTRACT ADDRESS"; // If you want to manually include it
